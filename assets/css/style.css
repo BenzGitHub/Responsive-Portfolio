@@ -215,3 +215,65 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 980px) {
+  #masthead {
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  }
+
+  #main-container {
+    width:100%;
+  }
+  .main-section {
+    width:100%;
+  }
+} 
+
+@media only screen and (max-width: 768px) {
+  #masthead {
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  }
+
+  #main-container {
+    width:100%;
+  }
+  .main-section {
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+    #masthead {
+      position: relative;
+      z-index: 99;
+      width: 100%;
+      margin: 0 0 30px;
+      overflow: auto;
+      color: #ffffff;
+      background: #ffffff;
+      border-bottom: 2px solid #cccccc;
+    }
+
+    #main-container {
+      width:100%;
+    }
+    .main-section {
+      width:100%;
+    }
+  }   
